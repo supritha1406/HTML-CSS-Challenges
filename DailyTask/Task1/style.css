@@ -3,7 +3,7 @@
     }
     
     body{
-      margin: 15px;
+      margin: 25px;
     }
     header{
     width: 100%;
@@ -80,76 +80,58 @@
       font-size: small;
       text-align: center;
     }
-    .band-section p.three{
-      text-align: left;
-    }
-    /*.band-section p.four{
-      text-align: center;
-    }
-    .band-section p.five{
-      text-align: right;
-    }*/
     
-  .tour-dates{
+  .tour-dates-section{
       letter-spacing: 3px;
       background-color: black;
       padding-top: 30px;
     }
-    .tour-dates h2{
+    .tour-dates-section h2{
       text-align: center;
       color: white;
     }
-    .tour-dates h5{
+    .tour-dates-section h5{
       text-align: center;
       color:lightgrey;
     }
     .box1{
     background-color: white;
-    width: 800px;
+    font-size: 14px;
+    width: 500px;
     height: 80px;
     border: 1px solid lightgrey;
-    padding: 40px;
-    padding-top: 5px;
-    margin: 40px;
+    padding: 30px;
+    padding-top: 2px;
     color: black;
-    /*align at center*/
+    margin-left: 180px;
     }
     .nyc{
-      border: white;
-      width: 270px;
+      border: 1px solid white;
+      background-color: white;
+      color: black;
+      font-size: 14px;
       height: 400px;
-      background-color: #fff;
-      margin-left: 20px;
-      font-size: 15px;
-      letter-spacing: 2px;  
+      width: 275px;
+      margin-left: 40px;
     }
-     .paris{
-      border: white;
-      width: 270px;
-      height: 400px;
-      background-color: #fff;
-      margin-left: 20px;
-      font-size: 15px;
-      letter-spacing: 2px; 
-    }
+   /*
+   */
+   .paris{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    height: 400px;
+    width: 275px;
+  }
     .sfo{
-      border: white;
-      width: 270px;
-      height: 400px;
-      background-color: #fff;
-      margin-left: 20px;
-      font-size: 15px;
-      letter-spacing: 2px; 
-    }
-    .tour-dates h4{
-      text-align: center;
-    }
-    .tour-dates button{
-      background-color: black;
-      color: white;
-      margin:20px 40px 20px 30px;
-    }
-    
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    height: 400px;
+    width: 275px;
+  }  
   .contact{
       background-color: white;
       letter-spacing: 1px;
@@ -160,10 +142,6 @@
       font-family: arial ;
       font-size: 15px;
       text-align: left;
-      margin-left: 250px;
-      /*position*/
-    }
-    form{
       margin-left: 250px;
     }
     form .message{
@@ -182,4 +160,6 @@
       background-color: grey;
       cursor: pointer;
     }
+    
+   
     
